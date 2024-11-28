@@ -1,0 +1,51 @@
+.cont {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(4, 76, 208);
+    display: flex;
+}
+
+.ch {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    background-color: #c80505;
+    box-shadow: rgb(0, 0, 0) 3px 3px 4px;
+}
+
+.ch1:hover {
+    transform: scale(2);
+    transform: scale3d(65);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch2:hover {
+    transform: scale(2);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch3:hover {
+    transform: scaleX(2);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch4:hover {
+    transform:scaleY(2);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch5:hover {
+    transform: scaleZ(2);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch6:hover {
+    transform: scale3d(2);
+    background-color: #000000;
+    color: aliceblue;
+}
